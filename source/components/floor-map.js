@@ -5,7 +5,7 @@ import React from 'react'
 class FloorMap extends React.Component {
 	render() {
 		return(
-			<img src={'/map_floor_2.png'} alt='Map of current floor of Regents Hall of Sciences' />
+			<img src={'/images/map_floor_2.png'} alt='Map of current floor of Regents Hall of Sciences' />
 			)
 	}
 }
