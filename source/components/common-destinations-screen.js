@@ -28,7 +28,7 @@ class CommonDestinationsScreen extends React.Component {
 					<div>
 					<BackButton link_to='/createnewnavigation'/>
 					<MainMenuButton/>
-					<HelpButton link_to=''/>
+					<HelpButton link_to='/commondestinationshelp'/>
 					</div>
 				</div>
 			)
