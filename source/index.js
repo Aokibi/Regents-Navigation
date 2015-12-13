@@ -10,7 +10,9 @@ import App from './components/app'
 import MainMenu from './components/main-menu'
 import CreateNewNavigation from './components/create-new-navigation'
 import CommonDestinationsScreen from './components/common-destinations-screen'
+import CommonDestinationsHelp from './components/common-destinations-help'
 import SearchScreen from './components/search-screen'
+import SearchScreenHelp from './components/search-screen-help'
 import SavedNavigationScreen from './components/saved-navigation-screen'
 import CreateNewNavigationHelp from './components/create-new-navigation-help'
 import SavedNavigationHelp from './components/saved-navigation-help'
@@ -30,7 +32,9 @@ const routes = (
 		<Route path='createnewnavigation' component={CreateNewNavigation} />
 			<Route path='createnewnavigationhelp' component={CreateNewNavigationHelp} />
 			<Route path='commondestinations' component={CommonDestinationsScreen} />
+				<Route path='commondestinationshelp' component={CommonDestinationsHelp} />
 			<Route path='search' component={SearchScreen} />
+				<Route path='searchscreenhelp' component={SearchScreenHelp} />
 		<Route path='savednavigationscreen' component={SavedNavigationScreen} />
 			<Route path='savednavigationhelp' component={SavedNavigationHelp} />
 		<Route path='settings' component={Settings} />
