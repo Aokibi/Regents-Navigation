@@ -7,7 +7,7 @@
   "repository": "",
   "license": "MIT",
   "scripts": {
-    "copy": "mkdir -p build",
+    "copy": "mkdir -p build/ && cpy 'source/images/**/*' build/images",
     "build": "env NODE_ENV=production webpack --production --bail --progress --config .webpackrc",
     "prebuild": "npm run copy",
     "clean": "rimraf build/",
