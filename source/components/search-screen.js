@@ -6,6 +6,10 @@ import HelpButton from './help-button'
 import BackButton from './back-button'
 import styles from './our-styles.less'
 
+
+/* Allows users to search for a room based on what class is
+	held there, what type of room it is, and for an office  
+	by using the professor's name. */
 class SearchScreen extends React.Component {
 	render() {
 		return (

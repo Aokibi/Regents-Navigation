@@ -5,6 +5,7 @@ import HelpButton from './help-button'
 import Icon from './icon'
 import styles from './our-styles.less'
 
+/* Allows users to change the color scheme and text size. */
 class Settings extends React.Component {
 	render() {
 		return (

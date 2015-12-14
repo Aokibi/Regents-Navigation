@@ -5,6 +5,7 @@ import MainMenuButton from './main-menu-button'
 import HelpButton from './help-button'
 import BackButton from './back-button'
 
+/* Screen for displaying the 3D model and/or the 2D floor map*/
 class MainNavigation extends React.Component {
 	render() {
 		return (

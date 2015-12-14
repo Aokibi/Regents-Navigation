@@ -6,6 +6,8 @@ import styles from './our-styles.less'
 //import range from 'lodash/utility/range'
 //import map from 'lodash/collection/map'
 
+/* The screen that displays a table of saved navigations. The user
+	can resume a route by selecting its start or end location. */
 class SavedNavigationScreen extends React.Component {
 	render() {
 		return (

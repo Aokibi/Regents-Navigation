@@ -1,5 +1,7 @@
 import React from 'react'
 
+/* The component that renders the 3D model.
+	Currently not implemented. */
 class NavigationMap extends React.Component {
 	render() {
 		return (

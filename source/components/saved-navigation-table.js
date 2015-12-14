@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './our-styles.less'
 
+/* The table that displays the start and end locations for
+	a saved route. */
 class SavedNavigationTable extends React.Component {
 	render() {
 		return (

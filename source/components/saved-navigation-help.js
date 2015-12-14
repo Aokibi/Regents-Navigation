@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './our-styles.less'
 import BackButton from './back-button'
 
+/* The help text for the saved navigation page. */
 class SavedNavigationHelp extends React.Component {
 	render() {
 		return (

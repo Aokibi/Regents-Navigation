@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './our-styles.less'
 
+/* Form for entering which location to start the route. */
 class StartingLocation extends React.Component {
 	render() {
 		return (

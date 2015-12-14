@@ -2,6 +2,7 @@ import React from 'react'
 import MainNavigationButton from './main-navigation-button'
 import styles from './our-styles.less'
 
+/* Menu bar component for the main navigation screen. */
 class MenuBar extends React.Component {
 	render() {
 		return (
