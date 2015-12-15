@@ -7,7 +7,7 @@ import Icon from './icon'
 class BackButton extends React.Component {
 	render() {
 		return (
-			<RoundButton><Link to={this.props.link_to}><Icon name='ionicon-arrow-left-c' type='inline'/></Link></RoundButton>
+			<Link to={this.props.link_to}><RoundButton><Icon name='ionicon-arrow-left-c' type='inline'/></RoundButton></Link>
 		)
 	}
 }

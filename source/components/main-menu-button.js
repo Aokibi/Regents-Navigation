@@ -7,7 +7,7 @@ import Icon from './icon'
 class MainMenuButton extends React.Component {
 	render() {
 		return (
-			<RoundButton><Link to='/'><Icon name='ionicon-home' type='inline'/></Link></RoundButton>
+			<Link to='/'><RoundButton><Icon name='ionicon-home' type='inline'/></RoundButton></Link>
 		)
 	}
 }
