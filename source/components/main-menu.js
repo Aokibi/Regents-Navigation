@@ -15,11 +15,11 @@ class MainMenu extends React.Component {
 				<h3 className={styles['main-menu']}> Main Menu </h3>
 				</div>
 				<div>
-				<Button><Link to='/createnewnavigation'>Start New Navigation</Link></Button><br/>
-				<Button><Link to='/savednavigationscreen'>Start Saved Navigation</Link></Button><br/>
-				<Button><Link to='/settings'>Settings</Link></Button><br/>
-				<Button><Link to='/mainmenuhelp'>Help</Link></Button><br/>
-				<Button><Link to='/about'>About</Link></Button><br/>
+				<Link to='/createnewnavigation'><Button>Start New Navigation</Button></Link><br/>
+				<Link to='/savednavigationscreen'><Button>Start Saved Navigation</Button></Link><br/>
+				<Link to='/settings'><Button>Settings</Button></Link><br/>
+				<Link to='/mainmenuhelp'><Button>Help</Button></Link><br/>
+				<Link to='/about'><Button>About</Button></Link><br/>
 				</div>
 			</div>
 			)
