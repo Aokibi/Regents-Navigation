@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './our-styles.less'
 
-/* The buttons used in the settings screen. */
+/* The buttons used in the settings screen for the color scheme settings. */
 class SettingsButton extends React.Component {
 	render() {
 		return (

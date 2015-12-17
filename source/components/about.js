@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './our-styles.less'
 import MainMenuButton from './main-menu-button'
 
-/* About information */
+/* This renders the About page */
 class About extends React.Component {
 	render() {
 		return (

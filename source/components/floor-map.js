@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './our-styles.less'
 
 /* Displays the 2D floor map. 
-   Currently not fully implemented */
+   Currently not fully implemented -- want to have a dropdown or something similar */
 class FloorMap extends React.Component {
 	render() {
 		return(

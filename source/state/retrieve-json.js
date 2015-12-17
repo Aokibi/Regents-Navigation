@@ -6,6 +6,7 @@ export function retrieveJson(location) {
 		.then(response => response.json())
 }
 
+// Gets classroom data from Hawken Rives' JSON, currently just grabs data from a specified JSON
 export default function getData() {
 	return {
 		type: RETRIEVE_JSON,
